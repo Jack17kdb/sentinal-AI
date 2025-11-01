@@ -86,3 +86,26 @@ A contained "Red Team" environment that safely tests Sentinel AI’s response:
 ---
 
 ## 🏗️ System Architecture
+
+[ Attacker Simulation ]
+↓
+[ System Logs / Network Data ] → [ AI Detection Engine ]
+↓ ↓
+[ MongoDB Storage ] ←→ [ Node.js API ]
+↓
+[ React Dashboard ]
+↓
+[ DevOps Automation Layer ]
+
+---
+
+## 🧰 Technologies Used
+
+| Layer | Tools / Frameworks |
+|-------|--------------------|
+| **Frontend** | React.js, TailwindCSS, Chart.js, Socket.io |
+| **Backend** | Node.js, Express.js, JWT Auth |
+| **Database** | MongoDB, Mongoose |
+| **AI/ML** | Python, Scikit-learn, PyTorch, Pandas |
+| **DevOps** | Docker, Terraform, GitHub Actions, PM2 |
+| **Security** | Ethical hacking scripts, intrusion simulation |
