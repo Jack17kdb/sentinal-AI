@@ -87,15 +87,15 @@ A contained "Red Team" environment that safely tests Sentinel AI’s response:
 
 ## 🏗️ System Architecture
 
-[ Attacker Simulation ]
-↓
-[ System Logs / Network Data ] → [ AI Detection Engine ]
-↓ ↓
-[ MongoDB Storage ] ←→ [ Node.js API ]
-↓
-[ React Dashboard ]
-↓
-[ DevOps Automation Layer ]
+[ Attacker Simulation ]  
+↓  
+[ System Logs / Network Data ] → [ AI Detection Engine ]  
+↓ ↓  
+[ MongoDB Storage ] ←→ [ Node.js API ]  
+↓  
+[ React Dashboard ]  
+↓  
+[ DevOps Automation Layer ]  
 
 ---
 
